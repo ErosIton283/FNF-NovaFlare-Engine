@@ -21,9 +21,9 @@ class PirateState extends MusicBeatState
 		add(bg);
 
 		var guh:String = "
-		This is pirate version\n
-		You are banned from entering the game\n
-		please use the legitimate version\n\n
+		You Violentated Law!!!\n
+		This is A Pirated Game of NF Engine\n
+		If you download the actual game of NF Engine we will both happy\n\n
                 此版本为盗版\n
                 你已被禁止进入游戏\n
                 请使用正版进行游玩\n
