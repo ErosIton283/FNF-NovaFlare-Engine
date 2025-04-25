@@ -153,7 +153,7 @@ class ResultsScreen extends MusicBeatSubstate
 		modsMenu.alpha = 0;
 		add(modsMenu);		
 		
-		modsText = new FlxText(20, 20 + modsMenu.height, 0, 'Mod name: ' + Mods.currentModDirectory);
+		modsText = new FlxText(20, 20 + modsMenu.height, 0, 'Your Mod Name: ' + Mods.currentModDirectory);
 		modsText.size = 16;		
 		modsText.font = Paths.font('vcr.ttf');
 		modsText.setBorderStyle(FlxTextBorderStyle.OUTLINE, FlxColor.BLACK, 1, 1);		
@@ -184,9 +184,9 @@ class ResultsScreen extends MusicBeatSubstate
 			    
 	    if (FileSystem.exists(Paths.modsJson(formattedFolder + '/' + formattedSong))){
             var rate:Float = DiffCalc.CalculateDiff(Song.loadFromJson(poop, game.songName.toLowerCase())) / 5;	
-            mesTextAdd('Difficult: ' + Math.ceil(rate * 100) / 100);				
+            mesTextAdd('Difficulty: ' + Math.ceil(rate * 100) / 100);				
 		}else{
-		    mesTextAdd('Difficult: N/A');				
+		    mesTextAdd('Difficulty: N/A');				
 		}
 		
 		//-------------------------
@@ -199,12 +199,12 @@ class ResultsScreen extends MusicBeatSubstate
 		add(scTextNumber);
 		
 		scTextAdd('Score: ' + game.songScore, 1);
-		scTextAdd('Highest Combe: ' + game.highestCombo, 2);
-		scTextAdd('Accuracy: ' + Math.ceil(game.ratingPercent * 10000) / 100 + '%', 1);
-		if (game.ratingFC == '') scTextAdd('Rank: N/A', 2);
-		else scTextAdd('Rank: ' + game.ratingName + ' - ' + game.ratingFC, 2);
+		scTextAdd('Highest Combos: ' + game.highestCombo, 2);
+		scTextAdd('Acc: ' + Math.ceil(game.ratingPercent * 10000) / 100 + '%', 1);
+		if (game.ratingFC == '') scTextAdd('Ranks: N/A', 2);
+		else scTextAdd('Ranks: ' + game.ratingName + ' - ' + game.ratingFC, 2);
 		scTextAdd('Hits: ' + game.songHits, 1);
-		scTextAdd('Combo Break: ' + game.songMisses, 2);
+		scTextAdd('Combo Breaks: ' + game.songMisses, 2);
 		
 		//-------------------------
 		
