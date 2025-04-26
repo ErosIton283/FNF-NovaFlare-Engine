@@ -24,6 +24,7 @@ class CreditsState extends MusicBeatState
 		[
 		['NovaFlare Engine Team'],
 		['Beihu',				'Beihu',				'Main Programmer',			'Head of NovaFlare Engine\n\n\nNothing special',		'FFC0CB',			'https://youtube.com/@beihu235?si=BI2efmEcI8_mZoUp', 					'https://github.com/beihu235'],
+				['ErosTheAwesome',				'ErosTheCooler',				'Just A silly Programmer Or Is it',			'Forker of NovaFlare Engine\n\n\nNothing special',		'AA00FF', 					'https://github.com/ErosIton283'],
 		['MaoPou',				'maopou',				'Programmer',				"Code help\n\n\nA crumb who likes to write code, but doesn't like to look at code :)",													'8B8682',		'https://space.bilibili.com/1548393523?spm_id_from=333.1007.0.0',	'https://github.com/MaoPou'],
 		['Chiny',				'chiny',				'Programmer',				'Credit state logic creator\n\n\nTouhou player',									'3399FF',		'https://space.bilibili.com/3493288327777064'],	
 		['TieGuo',				'tieguo',				'Ex-Programmer',			'Pause Menu creator\n\n\nI like coding shit',									'FF6600',		'https://b23.tv/7OVWzAO'],
